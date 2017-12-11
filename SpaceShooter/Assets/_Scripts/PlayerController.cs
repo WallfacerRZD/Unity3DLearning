@@ -12,12 +12,28 @@ public class PlayerController : MonoBehaviour {
     public float speed;
     public float tilt;
     public Boundary boundary;
+
+    public float fireRate;
+    private float nextFire;
+
+    public GameObject shot;
+    public Transform shotTransform;
 	// Use this for initialization
 	void Start () {
 		
 	}
 
     // Update is called once per frame
+
+    private void Update()
+    {
+        if (Input.GetButton("Fire1") && Time.time > nextFire)
+        {
+            nextFire = Time.time + fireRate;
+            Instantiate(shot, shotTransform);
+        }
+    }
+
     private void FixedUpdate()
     {
         float moveHorizontal = Input.GetAxis("Horizontal");
