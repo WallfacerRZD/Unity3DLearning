@@ -18,10 +18,6 @@ public class PlayerController : MonoBehaviour {
 
     public GameObject shot;
     public Transform shotTransform;
-	// Use this for initialization
-	void Start () {
-		
-	}
 
     // Update is called once per frame
 
@@ -30,7 +26,7 @@ public class PlayerController : MonoBehaviour {
         if (Input.GetButton("Fire1") && Time.time > nextFire)
         {
             nextFire = Time.time + fireRate;
-            Instantiate(shot, shotTransform);
+            Instantiate(shot, shotTransform); 
         }
     }
 
