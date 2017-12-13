@@ -8,6 +8,6 @@ public class DestroyedByBoundary : MonoBehaviour {
     private void OnTriggerExit(Collider other)
     {
         Destroy(other.gameObject);
-        Debug.Log("Trigger!");
+        //Debug.Log("Trigger!");
     }
 }
