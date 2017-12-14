@@ -26,6 +26,7 @@ public class PlayerController : MonoBehaviour {
         if (Input.GetButton("Fire1") && Time.time > nextFire)
         {
             nextFire = Time.time + fireRate;
+            // plyer消失后Bolt也立刻消失, 貌似Bolt的生命周期和player有关
             Instantiate(shot, shotTransform); 
         }
     }

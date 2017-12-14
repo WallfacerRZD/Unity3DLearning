@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour {
 
     public GameObject asteriod;
+    public GameObject enemy;
     public Vector3 spawnValue;
     public int hazardCount;
     public float spawnWait;
@@ -14,6 +15,7 @@ public class GameController : MonoBehaviour {
     public GUIText scoreText;
     public GUIText restartText;
     public GUIText gameOverText;
+    public float enemyRate;
 
     private int score;
     private bool restart;
@@ -50,11 +52,20 @@ public class GameController : MonoBehaviour {
             for (int i = 0; i < hazardCount; ++i)
             {
                 Vector3 spawnPositon = new Vector3(
-                    Random.Range(-spawnValue.x, spawnValue.x),
-                    spawnValue.y,
-                    spawnValue.z);
-                Quaternion spwnRotation = Quaternion.identity;
-                Instantiate(asteriod, spawnPositon, spwnRotation);
+                        Random.Range(-spawnValue.x, spawnValue.x),
+                        spawnValue.y,
+                        spawnValue.z);
+                float randomValue = Random.value;
+                if (randomValue > 1-enemyRate)
+                {
+                    //出现敌机
+                    Instantiate(enemy, spawnPositon, enemy.transform.rotation);
+                }
+                else
+                {
+                    Quaternion spwnRotation = Quaternion.identity;
+                    Instantiate(asteriod, spawnPositon, spwnRotation);
+                }
                 yield return new WaitForSeconds(spawnWait);
             }
             if (gameOver == true)
