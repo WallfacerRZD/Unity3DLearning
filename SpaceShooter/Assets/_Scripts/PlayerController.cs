@@ -36,7 +36,7 @@ public class PlayerController : MonoBehaviour {
         float moveHorizontal = Input.GetAxis("Horizontal");
         float moveVertical = Input.GetAxis("Vertical");
         Rigidbody rb = GetComponent<Rigidbody>();
-        rb.velocity = (new Vector3(moveHorizontal, 0.0f, moveVertical) * speed);
+        rb.velocity = new Vector3(moveHorizontal, 0.0f, moveVertical) * speed;
         rb.position = new Vector3(
             Mathf.Clamp(rb.position.x, boundary.xMin, boundary.xMax),
             0.0f,
