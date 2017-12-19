@@ -1,0 +1,113 @@
+[33mcommit 1e9369f7b5ff866e01e5eee389aad52fdf3886b8[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: WallfacerRZD <1048058400@qq.com>
+Date:   Tue Dec 19 11:13:00 2017 +0800
+
+    Bear
+
+[33mcommit 910527a684130ba7704bc802c35b3d30f9429c1d[m
+Author: WallfacerRZD <1048058400@qq.com>
+Date:   Tue Dec 19 00:12:46 2017 +0800
+
+    add shoting
+
+[33mcommit 81779784aa8ae197157ebdc540b3bf8b706afebb[m
+Author: WallfacerRZD <1048058400@qq.com>
+Date:   Mon Dec 18 15:48:25 2017 +0800
+
+    HealthUI EnemyAttack
+
+[33mcommit c2d2b6327f8f6d6e585fd79af58bf4d9e844f0ee[m
+Author: WallfacerRZD <1048058400@qq.com>
+Date:   Sat Dec 16 00:21:03 2017 +0800
+
+    Navigation
+
+[33mcommit 376c21ff57f0a68428466b7012c3bf482a8ec2c4[m
+Author: WallfacerRZD <1048058400@qq.com>
+Date:   Fri Dec 15 21:35:35 2017 +0800
+
+    camere follow
+
+[33mcommit f689a549caa47f8502047dcd52d9d6d4725fc254[m
+Author: WallfacerRZD <1048058400@qq.com>
+Date:   Fri Dec 15 11:17:07 2017 +0800
+
+    new tutorial
+
+[33mcommit 8f22937838e6cf6bded836bb974a2493220f7719[m
+Author: WallfacerRZD <1048058400@qq.com>
+Date:   Thu Dec 14 20:00:10 2017 +0800
+
+    add enemy
+
+[33mcommit 12c895a2b3d30d42643a24ecd75babd3cf12bfe3[m
+Author: WallfacerRZD <1048058400@qq.com>
+Date:   Thu Dec 14 16:08:22 2017 +0800
+
+    restart game
+
+[33mcommit 90ca36d4e896a5d2b65fbcba084a3f8a76c2e1a1[m
+Author: WallfacerRZD <1048058400@qq.com>
+Date:   Wed Dec 13 21:38:14 2017 +0800
+
+    add score
+
+[33mcommit 3ddb24f7ccf4c6553e2d0284e408061f92c87aaa[m
+Author: WallfacerRZD <1048058400@qq.com>
+Date:   Wed Dec 13 11:58:51 2017 +0800
+
+    add audio
+
+[33mcommit 7c885476446db677e66174e5286514a9c1f9656e[m
+Author: WallfacerRZD <1048058400@qq.com>
+Date:   Tue Dec 12 21:04:45 2017 +0800
+
+    GameController
+
+[33mcommit 8307b9263e2f85e8dbf3cea915811a246439ea02[m
+Author: WallfacerRZD <1048058400@qq.com>
+Date:   Tue Dec 12 17:42:23 2017 +0800
+
+    spawn
+
+[33mcommit f7c66c3a950c947c6aeb15dfecb1ad7fa123aec3[m
+Author: WallfacerRZD <1048058400@qq.com>
+Date:   Mon Dec 11 23:30:45 2017 +0800
+
+    delete .vs
+
+[33mcommit b49a16c75e78a1dda0c102411e2d6391893c4ba3[m
+Author: WallfacerRZD <1048058400@qq.com>
+Date:   Mon Dec 11 23:18:23 2017 +0800
+
+    inite
+
+[33mcommit e58cd4ff4f87926cd5c52e9232a649a7b83278d7[m
+Author: WallfacerRZD <1048058400@qq.com>
+Date:   Mon Dec 11 23:17:37 2017 +0800
+
+    clear projects
+
+[33mcommit 8a013ad6f5672771d66db2c52900a614822c9114[m
+Author: WallfacerRZD <1048058400@qq.com>
+Date:   Mon Dec 11 23:16:02 2017 +0800
+
+    inite
+
+[33mcommit 4ea41b494821f301b91b5445f2930e376e4e553f[m
+Author: WallfacerRZD <1048058400@qq.com>
+Date:   Tue Dec 5 19:16:10 2017 +0800
+
+    controller and bolt
+
+[33mcommit a743979aa9e37e92c2821d18f1f328f8e10ee618[m
+Author: WallfacerRZD <1048058400@qq.com>
+Date:   Sun Dec 3 16:45:00 2017 +0800
+
+    lighting
+
+[33mcommit 64a51ee3d5586e160f90ece032a522b5558df1a3[m
+Author: WallfacerRZD <1048058400@qq.com>
+Date:   Sun Dec 3 13:50:51 2017 +0800
+
+    projects initialize
